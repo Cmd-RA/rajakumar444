@@ -1,13 +1,87 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Video App</title>
+  <title>YouTube Clone</title>
+
+  <style>
+    body {
+      margin: 0;
+      background: #000;
+      color: #fff;
+      font-family: Arial;
+    }
+
+    .header {
+      padding: 10px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .video {
+      padding: 10px;
+    }
+
+    .video img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .ad {
+      background: #222;
+      padding: 10px;
+      margin: 10px;
+      text-align: center;
+    }
+
+    .bottom-nav {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      height: 60px;
+      background: #111;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .bottom-nav div {
+      text-align: center;
+    }
+  </style>
 </head>
-<body style="background:black; color:white;">
 
-<h2>🔥 My YouTube Clone</h2>
+<body>
 
-<p>यह मेरा पहला वीडियो प्लेटफॉर्म है</p>
+<div class="header">🔥 My Video App</div>
+
+<!-- Video Feed -->
+<div class="video">
+  <img src="https://via.placeholder.com/400x200">
+  <h4>Funny Video 😂</h4>
+</div>
+
+<div class="ad">📢 Ad Space</div>
+
+<div class="video">
+  <img src="https://via.placeholder.com/400x200">
+  <h4>Motivation Video 🔥</h4>
+</div>
+
+<div class="ad">📢 Ad Space</div>
+
+<div class="video">
+  <img src="https://via.placeholder.com/400x200">
+  <h4>Tech Video 💻</h4>
+</div>
+
+<!-- Bottom Navigation -->
+<div class="bottom-nav">
+  <div>🏠<br>Home</div>
+  <div>➕<br>Upload</div>
+  <div>❤️<br>Feed</div>
+  <div>👤<br>Profile</div>
+</div>
 
 </body>
 </html>
